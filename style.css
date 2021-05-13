@@ -8,7 +8,9 @@
 
 body {
     background-color: #827C9B;
-    max-width:fit-content;
+    margin: 0;
+    padding: 0;
+
 }
 
 p {
@@ -70,8 +72,6 @@ to {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0;
-    padding: 0;
 
 }
 
