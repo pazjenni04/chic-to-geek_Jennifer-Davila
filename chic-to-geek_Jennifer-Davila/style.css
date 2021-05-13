@@ -1,0 +1,111 @@
+
+:root{
+    --lgreen: #5BFF33;
+    --yellow: #EDF462;
+    --dark: #100D4F;
+    --honeydew: #F0FFF0;
+}
+
+body {
+    background-color: #827C9B;
+}
+
+p {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    color: var(--honeydew);
+    line-height: 40px;
+    top: 200px;
+    left: 30px;
+    text-align: center;
+
+}
+
+
+.cat-typing {
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-image: url(https://media.giphy.com/media/E6jscXfv3AkWQ/giphy.gif);
+    background-size: cover;
+
+}
+
+h2, h3, h4 {
+    font-family: Calibri, Cambria, Chalkduster, 'Franklin Gothic Medium';
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+    border: 4px solid purple;
+    padding: 20px;
+    width: 750px;
+    display: block;
+    position: relative;
+    left: 600px;
+    top: 120px;
+    animation-name: boxcolorchange;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+
+/* should transition colors inh1,h2,h3...*/
+
+@keyframes boxcolorchange {
+    0% {background-color: #B487BB;}
+    50% {background-color:lavender;}
+    100% {background-color: #CD80FF;}
+
+}
+
+/*hover link for any <a> tags - right now only targeting info under contact me section*/
+
+.contact a:hover {
+  background-color: #07F44B; /*inside box color light green*/
+  box-shadow:
+    0 0 50px 20px #F3F00D,  /* inner yellow */
+    0 0 90px 50px #F49E07, /* middle orange */
+    0 0 130px 80px #FF0000;  /*outer red*/
+
+}
+
+a:hover {
+    font-size: 30px;
+}
+
+.aesthetic-pic {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/327/232/3/glasses-monochrome-cat-animals-wallpaper-preview.jpg);
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header span{
+  font-size: 100px;
+  font-family: Calibri, Cambria, Chalkduster, 'Franklin Gothic Medium';
+  letter-spacing: 7px;
+  color: #484848;
+  left: 100px;
+  margin: 0;
+  padding: 0;
+  max-width: fit-content;
+}
+
+#email {
+    font-size: 40px;
+    color: black;
+    margin-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 4px dashed #00F3FF;
+    margin: 10px;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+
+}
