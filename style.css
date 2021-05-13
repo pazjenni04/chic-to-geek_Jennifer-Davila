@@ -1,0 +1,190 @@
+
+:root{
+    --lgreen: #5BFF33;
+    --yellow: #EDF462;
+    --dark: #100D4F;
+    --honeydew: #F0FFF0;
+}
+
+body {
+    background-color: #827C9B;
+    max-width:fit-content;
+}
+
+p {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    color: var(--honeydew);
+    line-height: 40px;
+    top: 200px;
+    left: 30px;
+    text-align: center;
+
+}
+
+h2, h3, h4 {
+    font-family: 'Franklin Gothic Medium', Impact;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+    border: 4px solid purple;
+    padding: 20px;
+    width: 750px;
+    display: block;
+    position: relative;
+    left: 600px;
+    top: 120px;
+    animation-name: boxcolorchange;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+
+/* should transition colors inh1,h2,h3...*/
+
+@keyframes boxcolorchange {
+    0% {background-color: #B487BB;}
+    50% {background-color:lavender;}
+    100% {background-color: #CD80FF;}
+
+}
+
+/* glow affect on h1 tag */
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+to {
+  text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+}
+
+
+
+.aesthetic-pic {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/327/232/3/glasses-monochrome-cat-animals-wallpaper-preview.jpg);
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.email {
+    font-size: 40px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    border: 4px dashed #00F3FF;
+    margin: 10px;
+    padding: 20px;
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    height: 200px;
+
+}
+
+h1 {
+    font-size: 100px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    top: 80px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.seo-project {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    top: 200px;
+    left: 300px;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+
+
+}
+
+.project2 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    top: 200px;
+    left: 620px;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+}
+
+.project3 {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    top: 200px;
+    left: 1100px;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+
+}
+
+.caption {
+    display: inline-flex;
+    font-size: 40px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    left: 75px;
+    color: var(--honeydew);
+
+
+}
+
+
+.contact-section {
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+}
+
+.git-hub {
+    font-size: 40px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    border: 4px dashed #00F3FF;
+    margin: 10px;
+    padding: 20px;
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    top: 190px;
+    position: relative;
+}
+
+/*hover link for any <a> tags - right now only targeting info under contact me section*/
+  
+  .contact-section a:hover {
+      font-size: 45px;
+      color: var(--honeydew);
+      position: relative;
+  }
+
+  @media only screen and (max-width:)
