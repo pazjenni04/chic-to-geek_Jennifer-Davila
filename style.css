@@ -1,8 +1,5 @@
 
 :root{
-    --lgreen: #5BFF33;
-    --yellow: #EDF462;
-    --dark: #100D4F;
     --honeydew: #F0FFF0;
 }
 
@@ -54,7 +51,7 @@ h2, h3, h4 {
     padding: 20px;
     width: 600px;
     position: relative;
-    left: 33%;
+    left: 35%;
     top: 100px;
     animation-name: boxcolorchange;
     animation-duration: 6s;
@@ -313,6 +310,7 @@ h1 {
         margin: 5%;
         padding: 5%;
         display: inline-block;
+        left: 10%;
     }
 
     .project2 {
@@ -321,6 +319,7 @@ h1 {
         margin: 5%;
         padding: 5%;
         display: inline-block;
+        left: 10%;
     }
 
     .project3 {
@@ -330,6 +329,7 @@ h1 {
         margin: 5%;
         padding: 5%;
         display: inline-block;
+        left: 10%;
     }
     
 
@@ -348,6 +348,7 @@ h1 {
     .code-projects {
         position: relative;
     
+    }
 
     .contact-section {
         position: relative;
